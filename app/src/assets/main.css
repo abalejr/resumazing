@@ -3,11 +3,40 @@
 
 #app {
   background-color: #fff;
-  width: 850px;
-  height: 1100px;
+  width: 100%;
   align-items: center;
-  padding: 40px 61.82px;
+  padding: 0 12px;
   box-shadow: 0 0 15px 3px #3333;
+}
+
+@media screen and (max-width: 849px) {
+  li {
+    text-indent: -0.6em;
+    margin-left: 1.6em;
+  }
+
+  .proficiency:not(:last-child) {
+    margin-right: 12px;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  #app {
+    width: 850px;
+    height: 1100px;
+    padding: 0 36px;
+  }
+
+  li li {
+    text-indent: -0.6em;
+    margin-left: 1.6em;
+  }
+
+  li::before {
+    content: "\00B7";
+    display: inline-block;
+    margin-right: 0.2em;
+  }
 }
 
 h1 {
@@ -17,9 +46,20 @@ h1 {
 h2,
 p,
 li,
-#contact,
-#proficiency {
+header {
   margin-bottom: 16.8px;
+}
+
+p {
+  display: inline-block;
+}
+
+p.work-history-headline {
+  font-weight: 500;
+}
+
+p.work-history-headline span {
+  font-style: italic;
 }
 
 h3 {
@@ -48,22 +88,17 @@ h3 span {
   text-transform: lowercase;
 }
 
-li::before {
-  content: "\00B7";
-  position: inline-block;
-  margin-right: 0.1em;
+#proficiency {
+  margin-bottom: 6.8px;
 }
 
-li li {
-  text-indent: -0.6em;
-  margin-left: 1.6em;
-}
-
-#proficiency>div {
+#proficiency .flex {
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .proficiency {
+  margin-bottom: 8px;
   font-family: monospace;
   text-align: center;
 }

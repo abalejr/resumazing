@@ -13,3 +13,19 @@ export interface AcademicQualification {
   location: string;
   graduationYear: number;
 }
+
+export interface ProfessionalExperience {
+  id: number;
+  experienceSummary: string;
+}
+
+export interface Proficiency {
+  id: number;
+  title: string;
+  score: 1 | 2 | 3 | 4 | 5;
+}
+
+export interface Passion {
+  id: number;
+  title: string;
+}

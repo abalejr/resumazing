@@ -1,6 +1,9 @@
 <script setup lang="ts">
 import WorkHistory from './components/WorkHistory.vue';
 import AcademicQualification from './components/AcademicQualification.vue';
+import ProfessionalExperience from './components/ProfessionalExperience.vue';
+import TechnologyProficiencies from './components/TechnologyProficiencies.vue';
+import PersonalPassions from './components/PersonalPassions.vue';
 </script>
 
 <template>
@@ -15,8 +18,8 @@ import AcademicQualification from './components/AcademicQualification.vue';
   <main>
     <WorkHistory />
     <AcademicQualification />
-    <!-- <ProfessionalExperience /> -->
-    <!-- <Proficiencies /> -->
-    <!-- <Passions /> -->
+    <ProfessionalExperience />
+    <TechnologyProficiencies />
+    <PersonalPassions />
   </main>
 </template>

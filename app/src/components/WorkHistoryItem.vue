@@ -8,7 +8,7 @@ defineProps<Props>()
 
 <template>
   <li>
-    <span>{{ company }} | {{ jobTitle }} | {{ location }} | {{ dateRange }}</span>
+    <p class="work-history-headline"><span>{{ company }}</span> | {{ jobTitle }} | {{ location }} | {{ dateRange }}</p>
     <ul>
       <li>{{ description }}</li>
     </ul>
