@@ -9,10 +9,10 @@ import PersonalPassions from './components/PersonalPassions.vue';
 <template>
   <header>
     <h1>A.J. Bale</h1>
-    <h3>Allen Henry Bale, Jr.</h3>
-    <h3>87 Locust Ave. Neptune City, NJ 07753</h3>
-    <h3><a href="mailto:abalejr@gmail.com" target="_blank">abalejr@gmail.com</a> | <a href="tel:+18482204958">(848)
-        220-4958</a></h3>
+    <p>Allen Henry Bale, Jr.</p>
+    <p>87 Locust Ave. Neptune City, NJ 07753</p>
+    <p><a href="mailto:abalejr@gmail.com" target="_blank">abalejr@gmail.com</a> | <a href="tel:+18482204958">(848)
+        220-4958</a></p>
   </header>
 
   <main>

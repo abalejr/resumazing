@@ -54,6 +54,15 @@ p {
   display: inline-block;
 }
 
+header p {
+  display: block;
+  margin-bottom: 4.2px;
+}
+
+header p:last-of-type {
+  margin-bottom: 0;
+}
+
 p.work-history-headline {
   font-weight: 500;
 }
